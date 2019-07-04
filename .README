@@ -1,0 +1,7 @@
+- For screens that are greater than 768px, I wanted to remove
+the burger menu and leave only the navigation links.
+
+- For screens that are less than 768px, I wanted to add a burger menu that
+toggles on/off and takes up the entire viewport of the screen instead.
+
+- I wanted to build this mobile first to aide in the responsiveness of the page.
