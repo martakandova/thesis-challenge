@@ -15,7 +15,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(/assets/bg_image.png) no-repeat center;
+  background: url(/assets/bg_image-min.png) no-repeat center;
   background-size: cover;
   font-family: "Roboto-Regular";
   -webkit-font-smoothing: antialiased;
@@ -47,6 +47,8 @@ body {
     height: 20px;
     background: url(/assets/burger-menu.png) no-repeat center;
     background-size: contain; }
+    .navigation-bar #burger-menu:hover {
+      cursor: pointer; }
 
 .mobile-navigation {
   background: rgba(255, 255, 255, 0.2);
@@ -134,8 +136,6 @@ body {
     display: none; }
 
 @media only screen and (min-width: 768px) {
-  body {
-    background-size: cover; }
   .mobile-navigation {
     display: none !important; }
   .wrapper .main {
